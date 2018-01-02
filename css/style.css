@@ -55,7 +55,7 @@ h1 {
 }
 p {
     color: #fff;
-    margin: 10px 0;
+    margin: 5px 0;
     letter-spacing: 2px;
     font-size: 17px;
 	font-family: 'Open Sans', sans-serif;
@@ -184,7 +184,6 @@ p {
     color: #fff;
     font-size: 15px;
     margin-top: 35px;
-	letter-spacing:1px;
 }
 .copy p a {
     color: #D0B531;
