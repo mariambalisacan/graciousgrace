@@ -103,27 +103,24 @@ p {
     border-bottom: 1px solid rgba(255, 255, 255, 0.84);
     border-top: 1px solid rgba(255, 255, 255, 0.84);
     border-left: 1px solid rgba(255, 255, 255, 0.84);
+    background-color: #46bedc30;
 }
+
 .countSeconds:last-child {
     border-right: 1px solid rgba(255, 255, 255, 0.84);
 }
+
 .timer_wrap {
     width: 53%;
     margin: 0 auto;
     box-sizing: border-box;
 }
-.points {
-	float: left;
-	width:40px;
-	margin: 0;
-	font-size: 44px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 138px;
-	text-shadow: none;
-	color:#FFF;
-    display: none;
+
+.countdownHolder {
+    font: 23px/0.8 'Quicksand', sans-serif;
+    height: 89px;
 }
+
 .boxName {
     float: left;
     width: 100%;
@@ -135,50 +132,17 @@ p {
     clear: both;
     padding: 2px;
 }
-/* --//timer-- */
-/*--newsletter--*/
-.newsletter {
-    margin: 0em auto 0;
-    width: 60%;
+
+#out p{
+    font-size: 65px;
+    text-transform: uppercase;
+    /*text-align: center;*/
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.newsletter h2{
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 14px;
-	letter-spacing:2px;
-}
-.newsletter input[type="email"] {
-    padding: 16px 2%;
-    width:50%;
-    margin-right: 0px;
-	letter-spacing: 1px;
-    font-size: 15px;
-	color: #fff;
-    max-width: 96%;
-    outline:none;
-    border:none;
-    display:inline-block;
-    vertical-align: middle;
-	background: rgba(14, 14, 13, 0.62);
-}
-.newsletter input[type="submit"] {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 500;
-    border: none;
-	background: #00a98f;
-    padding: 15px 30px;
-    outline: none;
-    display: inline-block;
-    vertical-align: middle;
-	cursor:pointer;
-}   
-.newsletter input[type="submit"]:hover {
-    background: rgb(202, 173, 30);
-}
-/*--//newsletter--*/
+/* --//timer-- */
+
 /*--copyright--*/
 .copy p {
     color: #fff;

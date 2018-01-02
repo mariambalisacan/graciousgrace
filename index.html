@@ -10,8 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Gracious Grace LLC</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Website Coming Soon template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs Sign up Web Templates, 
- Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
+<meta name="keywords" content="">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -22,11 +21,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/jquery.countdown.css" />
+<!-- <link rel="stylesheet" href="css/clock.css" /> -->
 
 <!-- font-awesome-icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet">
 
 <!--fonts--> 
 <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
@@ -41,19 +39,67 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<h1>WEBSITE COMING SOON</h1>
 		<p>We are currently working on our website</p>
 		<p>We will be here soon!</p>
-		<!--timer-->
-     		<div class="timer_wrap">
-				<div id="counter"> </div>		
-			</div> 
-		<!--//timer-->
-		
+
+		<!-- clock -->
+		<div class="timer_wrap">
+			<div id="counter" class="countdownHolder">
+
+				<div class="countHours">
+					<span class="position">
+						<span class="digit static" style="top: 0px; opacity: 1;">
+							 <p id="out" class="hours"></p>
+						</span>
+					</span>
+
+					<span class="boxName">
+						<br>
+						<span class="Hours">HOURS</span>
+					</span>
+				</div>
+
+				<div class="countMinutes">
+					<span class="position">
+						<span class="digit static" style="top: 0px; opacity: 1;">
+							<p id="out" class="minutes"></p>
+						</span>
+					</span>
+
+					<span class="boxName">
+						<br>
+						<span class="Minutes">MINUTES</span>
+					</span>
+				</div>
+
+				<div class="countDays">
+					<span class="position">
+						<span class="digit static" style="top: 0px; opacity: 1;">
+							<p id="out" class="seconds"></p>
+						</span>
+					</span>
+
+					<span class="boxName">
+						<br>
+						<span class="Seconds">SECONDS</span>
+					</span>
+				</div>
+
+				<div class="countSeconds">
+					<span class="position">
+						<span class="digit static" style="top: 0px; opacity: 1;">
+							<p id="out" class="twelvehr"></p>
+						</span>
+					</span>
+
+					<span class="boxName">
+						<br>
+						<span class="Days">&nbsp;</span>
+					</span>
+				</div>
+	      	</div>
+		</div>
+
 		<!--copyright-->
 			<div class="copy w3ls">
-		       
-				<!--<ul class="agileinfo_social_icons w3l">
-					<li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-				</ul>-->
 				<p>Copyright &copy; 2018 | All Rights Reserved</p>
 				<img src="images/Gracious Gift LLC_logo1.jpg" style="width: 10%">
 			</div>
@@ -62,8 +108,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
    </div>
 <!--//background-->
-<!--scripts--> 
-<script src="js/jquery.countdown.js"></script>
+
+<!--scripts-->
+<script src="js/jquery.clock.js"></script>
 <script src="js/script.js"></script>
 <!--//scripts--> 
 </body>
