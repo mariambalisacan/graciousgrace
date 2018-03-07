@@ -1,0 +1,434 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ 
+/*
+  Color
+    SLB 47bedc
+    LB  47bedc
+    DB  2a6dc4
+    G   6c6c6c
+
+    r   ff0000
+*/
+  
+body{
+    font-family: 'Nixie One', cursive;
+    /*font-family: 'Quicksand', sans-serif;*/
+    /*font-family: 'Arvo', sans-serif;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arvo', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+
+li{  
+    list-style:none !important;
+}
+
+.img{
+	width:100%;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.ff > ul > li {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #6f6b6b;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    letter-spacing: 2px;
+	color: #fff !important;
+}
+
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background-color:#47bedc;
+	margin-top:30px;
+}
+
+footer p {
+	font-family: 'Nixie One', cursive;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 15px 0;
+	color:#ffffff;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+		background: url('../img/balloons_1.jpg') no-repeat;
+		background-size: cover;
+        text-shadow: 1px 1px 2px rgb(236, 236, 236);
+        font-family: 'Arvo', sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+		height: 150px;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+    }
+
+    .nav>li>a {
+        padding: 16px;
+    }
+
+    .nav{
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .nav li{
+        display:inline;
+    }
+
+    .nav a{
+        display:inline-block;
+        padding:10px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+        list-style:none !important;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/* Home */
+img.home_content
+{
+	width:100%;
+}
+
+@media (min-width:768px){
+.social{
+	padding-right:30%;
+}
+}
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+	top: 0;
+	width: 100%;
+	z-index:99;	
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #47bedc;
+    color: #47bedc;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+/* Contact Us */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+
+.team{
+    padding:75px 0;
+}
+h3.description{
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #999;
+	border-bottom: 1px solid rgba(0, 0, 0,0.1);
+	padding-bottom: 5px;
+}
+.profile{
+	margin-top: 25px;
+}
+.profile h1{
+	font-weight: normal;
+	font-size: 20px;
+	margin:10px 0 0 0;
+}
+.profile h2{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+.profile .img-box:after{
+	content:"";
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+	opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+.img-box ul li{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 5px;
+	display: inline-block;
+}
+.img-box a{
+	color:#fff;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul a{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+	border-color: #fff;
+	color: #47bedc;
+}
+a{
+    font-family: 'Arvo', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:#6c6c6c;
+}
+
+a:hover{
+    text-decoration:none;
+    color:#47bedc;
+}
+
+i.red{
+    color:#BC0213;
+}
+
+.caption>h4{
+    text-align: center;
+}
+
+.caption>h4>a{
+    color:#47bedc;
+    text-transform: uppercase;
+}
+
+.caption>h4>a:hover{
+    color:#6c6c6c;
+}
+
+.title{
+    border: 1px solid #5AB1D0 !important;
+    padding-top: 5px;
+    border-top: 4px solid #5AB1D0 !important;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Arvo', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.title>div>a{
+    font-weight: bold;
+}
+
+
+.side{
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000;
+}
+
+.side_1>a{
+    padding-left: 14px;
+}
+
+hr{
+    border-bottom: 4px solid #5AB1D0 !important;
+}
+
+.info {background-color: #2196F3; color: #fff; text-transform: uppercase;} /* Blue */
+.info:hover {background: #0b7dda;color: #fff;}
+
+
+/* Side dropdown */
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
